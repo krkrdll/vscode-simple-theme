@@ -1,0 +1,35 @@
+{
+	"name": "vscode-simple-theme",
+	"displayName": "Simple Theme",
+	"description": "Simple Theme",
+	"version": "1.0.0",
+	"publisher": "krkrdll",
+	"license": "MIT",
+	"categories": [ "Themes" ],
+	"engines": {
+		"vscode": "^1.0.0"
+	},
+	"keywords": [
+		"theme"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/krkrdll/vscode-simple-theme"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Simple Light",
+				"uiTheme": "vs",
+				"path": "./themes/light.json"
+			}
+		],
+		"iconThemes": [
+			{
+				"id": "simple-icon",
+				"label": "Simple Icon",
+				"path": "./icon-themes/icon.json"
+			}
+		]
+	}
+}
