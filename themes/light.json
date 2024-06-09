@@ -42,7 +42,10 @@
 	},
 	"tokenColors": [
 		{
-			"scope": ["meta.embedded", "source.groovy.embedded"],
+			"scope": [
+				"meta.embedded",
+				"source.groovy.embedded"
+			],
 			"settings": {
 				"foreground": "#000000ff"
 			}
